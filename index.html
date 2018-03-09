@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-sky color="#555"></a-sky>
+
+    <a-plane color="black" rotation="-90 0 0" height="100" width="100"></a-plane>
+
+    <a-box color="green" position="10 5 10"></a-box>
+
+    <a-entity light="type: ambient; color: #222"></a-entity>
+    <a-entity light="type: directional; color: #111" position="-1 1 0"></a-entity>
+
+    <!-- <a-sky color="blue"></a-sky> -->
+    <!-- <a-dodecahedron position="25 0 -30" height="100" radius="2" color="red"></a-dodecahedron>
+    <a-box color="red"></a-box>
+    <a-cylinder color="green" rotation="90 0 0" radius="0.5" height="1.5" position="10 5 14"></a-cylinder> -->
+    <!-- <a-cylinder position="1 0.75 -3" rotation="90 0 0" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder> -->
+  </a-scene>
+</body>
+</html>

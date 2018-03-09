@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene outline>
+
+    <a-sky src="https://cdn.glitch.com/b870d9ec-1139-44f9-b462-223e4a2c74e7%2Fsechelt.jpg?1490307995926" radius="30"></a-sky>
+
+    <a-entity rotation="0 0 0">
+      <a-torus-knot position="-5 0 -5" color="green"></a-torus-knot>
+      <a-dodecahedron position="5 0 -5" height="100" radius="2" color="red"></a-dodecahedron>
+      <a-text align="center" position="0 5 -5" value="Sup" color="black"></a-text>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="green"></a-box>
+      <a-sphere src="https://cdn.glitch.com/b870d9ec-1139-44f9-b462-223e4a2c74e7%2Fcubes.jpg?1490308405745" position="0 1 -5" radius=".5">
+        <a-ring position="0 2 -5" radius="2" rotation="0 90 0" color="#FFFFFF"></a-ring>
+      </a-sphere>
+      <a-cylinder position="1 0.75 -3" rotation="90 0 0" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane src="https://cdn.glitch.com/b870d9ec-1139-44f9-b462-223e4a2c74e7%2Ffloor.jpg?1490307896453" rotation="-90 0 0"
+        height="100" width="100" position="0 -5 0"></a-plane>
+    </a-entity>
+    <a-light type="ambient" color="#999"></a-light>
+    <a-light type="point" intensity="1" position="2 10 10"></a-light>
+  </a-scene>
+</body>
+</html>
